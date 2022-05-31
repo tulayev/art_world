@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArtWorld.Api", "ArtWorld.Api\ArtWorld.Api.csproj", "{AD8389A1-6895-4F55-A69C-9E579EC1254D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArtWorld.DataAccess", "ArtWorld.DataAccess\ArtWorld.DataAccess.csproj", "{72BFDE0C-D54F-4B4E-A98C-D0F2B81B986B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtWorld.Models", "ArtWorld.Models\ArtWorld.Models.csproj", "{CB92BB05-C02D-444A-95B5-DE4D386E28CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD8389A1-6895-4F55-A69C-9E579EC1254D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8389A1-6895-4F55-A69C-9E579EC1254D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8389A1-6895-4F55-A69C-9E579EC1254D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8389A1-6895-4F55-A69C-9E579EC1254D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BFDE0C-D54F-4B4E-A98C-D0F2B81B986B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BFDE0C-D54F-4B4E-A98C-D0F2B81B986B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BFDE0C-D54F-4B4E-A98C-D0F2B81B986B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BFDE0C-D54F-4B4E-A98C-D0F2B81B986B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB92BB05-C02D-444A-95B5-DE4D386E28CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB92BB05-C02D-444A-95B5-DE4D386E28CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB92BB05-C02D-444A-95B5-DE4D386E28CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB92BB05-C02D-444A-95B5-DE4D386E28CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {890A8153-8B08-46AE-9C7A-186C801A353D}
+	EndGlobalSection
+EndGlobal

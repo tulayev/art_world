@@ -1,0 +1,22 @@
+{
+  "name": "art-world-client",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "watch": "npx tailwindcss -i ./src/assets/styles/app.css -o ./src/assets/styles/style.css --watch",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@aacassandra/vue3-progressbar": "^1.0.3",
+    "axios": "^0.27.2",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.5"
+  }
+}
